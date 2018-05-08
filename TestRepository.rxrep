@@ -1,0 +1,240 @@
+﻿<repository
+id="29b4c3b8-f736-4116-93ec-29c4f5c50b40"
+name="TestRepository"
+rxversion="8.1">
+	<codegen
+	classname="TestRepository"
+	namespace="Test">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d48e4472-0649-4b8e-8d50-8058b6a65c38"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="857656d2-8dbc-464b-900f-4dd46f4e06a9"
+		isrooted="True"
+		name="PatientDataWindow"
+		refpath="/form[@automationid='PatientDataWindow']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="92d2ae07-98c2-47bd-ab88-cdc415848601"
+			name="LoadButton"
+			refimgid="a184410e-0546-48ce-91c5-bf9eb950602b"
+			refpath="/form[@automationid='PatientDataWindow']/container/container[2]/button[@automationid='LoadButton']"
+			searchtimeout="30000ms">
+				/form[@automationid='PatientDataWindow']/container/container[2]/button[@automationid='LoadButton']
+			</item>
+			<basepath>
+				/form[@automationid='PatientDataWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhPpZPPaxpBFMf9Q5ofTWiggV5bekpD
+Q0+BpO3Bk+0toUfB+1KCIKkQCmu8NNTG01riQazoxR8o6FY8NKikIIJVMUWNu+7O7Mz+ojODwgb6
+I6FfeMzOvvf98PbNrMv+TzkB5mdBUGKCAJyRSn5RabLT6eD42RkYj8eIVc/kBKDlOwvo7sKi7YxP
+HyPYJHqxs8tyW082oUE081wDWI1GAzfqdX0eJx9OrojXGo1GiO5fe14ZFNLr9VhXVH+cgaZpxubG
+hjwYDPTjUIgZjnmedfGj0/k3IHj4DpJi+GZvXzsMBDT6LhwK3Qzw/eICra2smi93n0+p4VYAOjBi
+1O7fWzPPv53fHhA9PaWt2yGex7IkASfg/dER/ivg5+UlfrC+bjx7uqVjjM05YGd7G73lOPT44SNz
+ZXHJIncBzizXAWRgkBZ8FUVM97IsU4A1j9WlZcN/cKCw4plckiQZ5Px1UmxYloW63S5oNpsYQmi1
+Wi19OBxCkoPtdhuSI9UAACYN6mOAcDgsJZNJORKJ0LaQ2+2WarWa6vP5pHQ6PSVxxfM8FARhms1m
+lXg8rpJnJRaLAQYQRVGNRqMTjuOmk8lE83g8ci6XU71e76harSKyKsFgEOTzea1YLMJAICD5/X6J
+ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
+WGxICxTCCOcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="4c95bb7c-7e66-4931-8ff1-eacaa6d9690f"
+		isrooted="True"
+		name="Form7DSurgicalSoftwareSpineModule"
+		refpath="/form[@title='7D Surgical Software - Spine Module']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,wpfelement,wpfgroupelement"
+			capname="container"
+			id="7888bf5a-8e12-4a61-a3d3-b7bcfc4c2d4a"
+			name="SomeContainer"
+			refimgid="2a221475-1479-441d-874f-f1a6e129831c"
+			refpath="/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[2]/container[@automationid='ViewingArea']/container[1]"
+			searchtimeout="30000ms">
+				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/?/?/container[@automationid='ViewingArea']/container[1]
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="2b085b3b-dc12-4c67-a062-50f96d480661"
+			name="CenterPedal"
+			refimgid="2edd7e21-0492-4dd9-a71d-c541e6d4ecbc"
+			refpath="/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/container[@automationid='FootPedalControl']/button[@automationid='CenterPedal']"
+			searchtimeout="30000ms">
+				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/?/?/container[@automationid='FootPedalControl']/button[@automationid='CenterPedal']
+			</item>
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="48be6713-42b8-4c10-8e96-afa5b84792d0"
+			name="LeftPedal"
+			refimgid="2954c669-3233-48f1-8b96-5e4ac5f765ac"
+			refpath="/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/container[@automationid='FootPedalControl']/button[@automationid='LeftPedal']"
+			searchtimeout="30000ms">
+				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/?/?/container[@automationid='FootPedalControl']/button[@automationid='LeftPedal']
+			</item>
+			<folder
+			capname="container"
+			id="080cc576-d4f0-4942-832f-9f6ef200e1ac"
+			isrooted="True"
+			name="SomeContainer1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,wpfelement,wpfgroupelement"
+				capname="button"
+				id="3d8a46fc-3c09-44be-9a65-fd0a513b70c9"
+				name="ExitButton"
+				refimgid="2d332029-cfdc-4f35-9d21-4432b6b600a9"
+				refpath="/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/container[4]/button[@automationid='ExitButton']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/?/?/button[@automationid='ExitButton']
+				</item>
+				<item
+				addcaps="radiobutton,wpfelement,wpfgroupelement"
+				capname="radiobutton"
+				id="acf0adc3-513d-4995-b406-e4358698976c"
+				name="WorkflowButton"
+				refimgid="e07c68d1-00c9-4a87-831b-7567de41e043"
+				refpath="/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@automationid='WorkflowButton' and @name='WorkflowButton' and @text='Define Levels']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list/radiobutton[@name='WorkflowButton' and @text='Define Levels']
+				</item>
+				<item
+				addcaps="radiobutton,wpfelement,wpfgroupelement"
+				capname="radiobutton"
+				id="3332bcb1-44aa-4f08-9ada-25962a5ec6e1"
+				name="WorkflowButton1"
+				refimgid="1fe9f573-cebc-4b47-8bb4-f16341856816"
+				refpath="/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list[1]/radiobutton[@automationid='WorkflowButton' and @name='WorkflowButton' and @text='Register']"
+				searchtimeout="30000ms">
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]/list[1]/radiobutton[@name='WorkflowButton' and @text='Register']
+				</item>
+				<basepath>
+					/form[@title~'^7D\ Surgical\ Software\ -\ Sp']/container[1]
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^7D\ Surgical\ Software\ -\ Sp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhPpZPPaxpBFMf9Q5ofTWiggV5bekpD
+Q0+BpO3Bk+0toUfB+1KCIKkQCmu8NNTG01riQazoxR8o6FY8NKikIIJVMUWNu+7O7Mz+ojODwgb6
+I6FfeMzOvvf98PbNrMv+TzkB5mdBUGKCAJyRSn5RabLT6eD42RkYj8eIVc/kBKDlOwvo7sKi7YxP
+HyPYJHqxs8tyW082oUE081wDWI1GAzfqdX0eJx9OrojXGo1GiO5fe14ZFNLr9VhXVH+cgaZpxubG
+hjwYDPTjUIgZjnmedfGj0/k3IHj4DpJi+GZvXzsMBDT6LhwK3Qzw/eICra2smi93n0+p4VYAOjBi
+1O7fWzPPv53fHhA9PaWt2yGex7IkASfg/dER/ivg5+UlfrC+bjx7uqVjjM05YGd7G73lOPT44SNz
+ZXHJIncBzizXAWRgkBZ8FUVM97IsU4A1j9WlZcN/cKCw4plckiQZ5Px1UmxYloW63S5oNpsYQmi1
+Wi19OBxCkoPtdhuSI9UAACYN6mOAcDgsJZNJORKJ0LaQ2+2WarWa6vP5pHQ6PSVxxfM8FARhms1m
+lXg8rpJnJRaLAQYQRVGNRqMTjuOmk8lE83g8ci6XU71e76harSKyKsFgEOTzea1YLMJAICD5/X6J
+ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
+WGxICxTCCOcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="acf79469-8194-42f0-8ed3-d173ae6f64fe"
+		isrooted="True"
+		name="ManageTools"
+		refpath="/form[@title='Manage Tools']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="f0712bba-64f0-4528-ba91-8abd3f762c3f"
+			name="SomeButton"
+			refimgid="6ce2e14c-874c-4df2-8f38-9c8c32e3807c"
+			refpath="/form[@title='Manage Tools']/container/container/button[1]"
+			searchtimeout="30000ms">
+				/form[@title='Manage Tools']/container/container[@caption='']/button[1]
+			</item>
+			<item
+			addcaps="text,wpfelement"
+			capname="text"
+			id="b9d23eb2-760b-4d43-801e-a40da1f5adc1"
+			name="Label"
+			refimgid="6af5a0d8-afd5-49f3-9b10-a2dee04d0fd3"
+			refpath="/form[@title='Manage Tools']/container[@caption='']/container[@caption='']/button[1]/text[@automationid='Label']"
+			searchtimeout="30000ms">
+				/form[@title='Manage Tools']/container/container[@caption='']/button[1]/text[@automationid='Label']
+			</item>
+			<basepath>
+				/form[@title='Manage Tools']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhPpZPPaxpBFMf9Q5ofTWiggV5bekpD
+Q0+BpO3Bk+0toUfB+1KCIKkQCmu8NNTG01riQazoxR8o6FY8NKikIIJVMUWNu+7O7Mz+ojODwgb6
+I6FfeMzOvvf98PbNrMv+TzkB5mdBUGKCAJyRSn5RabLT6eD42RkYj8eIVc/kBKDlOwvo7sKi7YxP
+HyPYJHqxs8tyW082oUE081wDWI1GAzfqdX0eJx9OrojXGo1GiO5fe14ZFNLr9VhXVH+cgaZpxubG
+hjwYDPTjUIgZjnmedfGj0/k3IHj4DpJi+GZvXzsMBDT6LhwK3Qzw/eICra2smi93n0+p4VYAOjBi
+1O7fWzPPv53fHhA9PaWt2yGex7IkASfg/dER/ivg5+UlfrC+bjx7uqVjjM05YGd7G73lOPT44SNz
+ZXHJIncBzizXAWRgkBZ8FUVM97IsU4A1j9WlZcN/cKCw4plckiQZ5Px1UmxYloW63S5oNpsYQmi1
+Wi19OBxCkoPtdhuSI9UAACYN6mOAcDgsJZNJORKJ0LaQ2+2WarWa6vP5pHQ6PSVxxfM8FARhms1m
+lXg8rpJnJRaLAQYQRVGNRqMTjuOmk8lE83g8ci6XU71e76harSKyKsFgEOTzea1YLMJAICD5/X6J
+ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
+WGxICxTCCOcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,wpfwin32element,wpfelement,wpfgroupelement"
+		capname="form"
+		id="48bc72fd-b7fd-4b17-ab57-ff46fef68503"
+		isrooted="True"
+		name="SDSpineApplication"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,wpfelement,wpfgroupelement"
+			capname="button"
+			id="38239ee0-5ccb-4582-8f97-5fb5035cfd4f"
+			name="Option1Button"
+			refimgid="edf47525-986c-4e16-9524-69ed76580c1e"
+			refpath="/form[@title='']/container/container/button[@automationid='Option1Button']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@caption='']/?/?/button[@automationid='Option1Button']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhPpZPPaxpBFMf9Q5ofTWiggV5bekpD
+Q0+BpO3Bk+0toUfB+1KCIKkQCmu8NNTG01riQazoxR8o6FY8NKikIIJVMUWNu+7O7Mz+ojODwgb6
+I6FfeMzOvvf98PbNrMv+TzkB5mdBUGKCAJyRSn5RabLT6eD42RkYj8eIVc/kBKDlOwvo7sKi7YxP
+HyPYJHqxs8tyW082oUE081wDWI1GAzfqdX0eJx9OrojXGo1GiO5fe14ZFNLr9VhXVH+cgaZpxubG
+hjwYDPTjUIgZjnmedfGj0/k3IHj4DpJi+GZvXzsMBDT6LhwK3Qzw/eICra2smi93n0+p4VYAOjBi
+1O7fWzPPv53fHhA9PaWt2yGex7IkASfg/dER/ivg5+UlfrC+bjx7uqVjjM05YGd7G73lOPT44SNz
+ZXHJIncBzizXAWRgkBZ8FUVM97IsU4A1j9WlZcN/cKCw4plckiQZ5Px1UmxYloW63S5oNpsYQmi1
+Wi19OBxCkoPtdhuSI9UAACYN6mOAcDgsJZNJORKJ0LaQ2+2WarWa6vP5pHQ6PSVxxfM8FARhms1m
+lXg8rpJnJRaLAQYQRVGNRqMTjuOmk8lE83g8ci6XU71e76harSKyKsFgEOTzea1YLMJAICD5/X6J
+ANggXaQ1LZVKqaQ9lEgkVPLTsInTtVAoqJVKRen3+7hUKoF6vQ5IHSafiTOZDCiXy+C3F+nmsu1f
+WGxICxTCCOcAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
